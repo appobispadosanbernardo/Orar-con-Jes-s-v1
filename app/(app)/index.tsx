@@ -91,14 +91,14 @@ export default function HomePage() {
               <Link href="/(app)/noticias" asChild>
                 <TouchableOpacity style={styles.dropdownItem}>
                   <MaterialCommunityIcons name="newspaper" size={24} color={Colors.primary} />
-                  <Text style={styles.dropdownText}>Noticias de la Diócesis</Text>
+                  <Text style={styles.dropdownText}>Noticias de la Diócesis de San Bernardo</Text>
                 </TouchableOpacity>
               </Link>
               
               <Link href="/(app)/diocesis-chile" asChild>
                 <TouchableOpacity style={styles.dropdownItem}>
                 <MaterialCommunityIcons name="map-marker-radius" size={24} color={Colors.primary} />
-                  <Text style={styles.dropdownText}>Diócesis de Chile</Text>
+                  <Text style={styles.dropdownText}>Noticias de las diócesis de Chile</Text>
                 </TouchableOpacity>
               </Link>
             </Animated.View>
